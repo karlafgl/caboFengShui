@@ -1,0 +1,119 @@
+
+/* NAVIGATION */
+#navbar { opacity: .7;}
+#navbar.navbar-light .nav-link {
+  color: #000
+}
+
+/* HEADER */
+#header {
+  position: relative;
+}
+
+#header h1,
+#header h2 {
+  color: #fff;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+#header h1 {
+  font-size:18vw;
+}
+
+#header h2 {
+  font-size:8vw;
+}
+
+.video-overlay {
+  background: #303952;
+  z-index: 1;
+  opacity: .70;
+}
+
+.header-content{
+  z-index: 2;
+  position: absolute;
+  top: 15vw;
+  left: 22vw;
+}
+
+#titulo {
+  font-family: 'Dancing Script', cursive;
+  color: black;
+  font-weight: bold;
+  font-size: 12rem;
+  text-align: center;
+}
+
+#subtitulo {
+  font-family: 'Tangerine', cursive;
+  color: black;
+  text-align: center;
+}
+
+/* ABOUT */
+
+.subtitulo2{
+  font-family: 'Tangerine', cursive;
+  color: #B84C5D;
+  text-align: center;
+}
+
+.subtitulo3 {
+  font-family: 'Dancing Script', cursive;
+  color: #B84C5D;
+}
+
+/* TESTIMONIALS */
+
+.fontText {
+  font-family: 'Tangerine', cursive;
+}
+
+#testimonial {
+  background-color: #f1f1f1;
+}
+
+/* ICONS TESTIMONIALS */
+
+.colorStars {
+  color: #DDDA07;
+}
+
+.titleTestimonials {
+  color: #B84C5D;
+  font-family: 'Tangerine', cursive;
+  font-size: 40px;
+}
+
+/* RADIO */
+
+#radio {
+  background: url(../img/images/gris.png);
+}
+
+/* FOOTER */
+
+footer {
+  text-decoration: none;
+  color: #000;
+  background-color: #f1f1f1;
+}
+
+li {
+  text-decoration: none;
+  list-style: none;
+  color: black;
+  font-family: times;
+}
+
+#footer2 {
+  background: #f1f1f1;
+  text-align: center;
+  font-family: times;
+}
+
+a:link {color:#000;}
+a:visited {color:#000;}
+a:active {color:#000;}
+a:hover {color:#ffffff;}
