@@ -1,119 +1,45 @@
-
-/* NAVIGATION */
-#navbar { opacity: .7;}
-#navbar.navbar-light .nav-link {
-  color: #000
+* {
+  font-family: sans-serif;
 }
 
-/* HEADER */
-#header {
-  position: relative;
+#navbar {
+  opacity: .7;
 }
 
-#header h1,
-#header h2 {
-  color: #fff;
-  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
-}
-
-#header h1 {
-  font-size:18vw;
-}
-
-#header h2 {
-  font-size:8vw;
-}
-
-.video-overlay {
+.view{
   background: #303952;
   z-index: 1;
   opacity: .70;
 }
 
-.header-content{
-  z-index: 2;
-  position: absolute;
-  top: 15vw;
-  left: 22vw;
+.header {
+  border-bottom: 6px solid #fff;
+    -webkit-box-shadow: 0px 10px 40px -8px #222222;
+    box-shadow: 0px 10px 40px -8px #222222;
+    height: 450px
 }
 
-#titulo {
-  font-family: 'Dancing Script', cursive;
-  color: black;
-  font-weight: bold;
-  font-size: 12rem;
-  text-align: center;
+.subtitle {
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
 
-#subtitulo {
-  font-family: 'Tangerine', cursive;
-  color: black;
-  text-align: center;
+.breakLine {
+  width: 350px;
+  border-radius: 5px;
+  
+  background: linear-gradient(217deg, rgba(255,0,0,.8), rgba(255,0,0,0) 70.71%),
+  linear-gradient(127deg, rgba(0,255,0,.8), rgba(0,255,0,0) 70.71%),
+  linear-gradient(336deg, rgba(0,0,255,.8), rgba(0,0,255,0) 70.71%);
+  height: 10px;
+  /* border-top: 5px solid #b43031; */
 }
 
-/* ABOUT */
-
-.subtitulo2{
-  font-family: 'Tangerine', cursive;
-  color: #B84C5D;
-  text-align: center;
+.title {
+  color: #b43031;
+  font-family: 'Tangerine'
 }
 
-.subtitulo3 {
+.testimonial {
   font-family: 'Dancing Script', cursive;
   color: #B84C5D;
 }
-
-/* TESTIMONIALS */
-
-.fontText {
-  font-family: 'Tangerine', cursive;
-}
-
-#testimonial {
-  background-color: #f1f1f1;
-}
-
-/* ICONS TESTIMONIALS */
-
-.colorStars {
-  color: #DDDA07;
-}
-
-.titleTestimonials {
-  color: #B84C5D;
-  font-family: 'Tangerine', cursive;
-  font-size: 40px;
-}
-
-/* RADIO */
-
-#radio {
-  background: url(../img/images/gris.png);
-}
-
-/* FOOTER */
-
-footer {
-  text-decoration: none;
-  color: #000;
-  background-color: #f1f1f1;
-}
-
-li {
-  text-decoration: none;
-  list-style: none;
-  color: black;
-  font-family: times;
-}
-
-#footer2 {
-  background: #f1f1f1;
-  text-align: center;
-  font-family: times;
-}
-
-a:link {color:#000;}
-a:visited {color:#000;}
-a:active {color:#000;}
-a:hover {color:#ffffff;}
