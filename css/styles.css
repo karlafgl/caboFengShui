@@ -48,3 +48,9 @@ a {
   
   text-decoration: none;
  }
+
+ /* PARALLAX */
+.parallax-window {
+	min-height: 400px;
+  background: transparent;
+}
